@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>发布文章</title>
+    <!--链接BootStrap的css文件-->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row" id="#">
+        <div class="col-sm-8">
+            <h2>新建文章</h2>
+            <form action="#.jsp" method="post" class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input required="required" type="text" class="form-control" name="title" id="paper-name" placeholder="文章题目">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <textarea class="form-control" name="content1" cols="48" rows="10" placeholder="文章内容"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-5">
+                        <button type="submit" name="button" class="col-sm-8 btn btn-success">发布文章
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
